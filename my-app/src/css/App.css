@@ -1,9 +1,26 @@
 main {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main > div {
-  margin-top: 2vh;
+main > h1 {
+  position: fixed;
+  top: 10vh;
+  font-size: 76px;
+}
+main > div > div {
+  display: flex;
+  flex-direction: column;
+}
+main > div > div > h2 {
+  font-size: 30px;
+}
+main > div > div > div:nth-child(2) {
+  margin: 10px 0;
+}
+main > div > div > div:nth-child(2) > input {
+  width: 50px;
+}
+main > div > div:nth-child(2) {
+  margin-top: 50px;
 }/*# sourceMappingURL=App.css.map */
