@@ -1,4 +1,6 @@
 {
+  "homepage": "http://jueun11.github.io/
+  tile-regeneration",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +36,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
+}
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
