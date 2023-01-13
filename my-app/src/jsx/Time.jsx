@@ -99,8 +99,8 @@ import { useRef } from 'react';
       <div>
         <h2>Before</h2>
         <div>
-          <input id="minute" value={beforemim} ref={minuteInput} onKeyPress={enter} type="text" maxLength={2} onChange={onlyNumber}/><span>분</span>
-          <input id="second" value={beforesec} ref={secondInput} onKeyDown={handleKeyDown} type="text" maxLength={2} onChange={onlyNumber}/><span>초</span>
+          <input id="minute" value={beforemim} ref={minuteInput} onKeyPress={enter} type="tel" maxLength={2} onChange={onlyNumber}/><span>분</span>
+          <input id="second" value={beforesec} ref={secondInput} onKeyDown={handleKeyDown} type="tel" maxLength={2} onChange={onlyNumber}/><span>초</span>
         </div>
         <button onClick={newChangeBtn} ref={changeBtn}>계산</button>
       </div>
